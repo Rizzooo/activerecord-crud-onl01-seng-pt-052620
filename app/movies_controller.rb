@@ -55,7 +55,7 @@ def can_find_by_multiple_attributes
   # title == "Title"
   # release_date == 2000
   # director == "Me"
-  Movie.find_by(id: nil, title: nil, release_date: nil, director: nil)
+  Movie.find_by(id: , title: , release_date: , director: , lead: nil, in_theaters: nil)
 end
 
 def can_find_using_where_clause_and_be_sorted
